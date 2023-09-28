@@ -1,12 +1,12 @@
 export function findElementById(id) {
     // Return the element in the DOM with corresponding `id`
-
+    return document.getElementById(id)
     // Your code here
 }
 
 export function findFirstElementOfTag(tag) {
     // Return the first occurence of an element of tag name `tag`
-
+    return document.querySelector(`${tag}`)
     // Your code here
 }
 
